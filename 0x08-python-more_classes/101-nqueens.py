@@ -92,7 +92,7 @@ def recursive_solve(board, row, queens, solutions):
     queens (int): The current number of placed queens.
     solutions (list): A list of lists of solutions.
     Returns:
-    soliutions
+    solutions
     """
     if queens == len(board):
         solutions.append(get_solution(board))
