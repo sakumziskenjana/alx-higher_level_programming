@@ -4,13 +4,14 @@
 Module composed by a function that multiplies 2 matrices
 
 """
+
 import numpy as np
 
 
-def lazy_matrix_mul(m_a, m_b):
-    """ Function that multiplies 2 matrices
+Module composed by a function that multiplies 2 matrices
+""" Function that multiplies 2 matrices
 
-    Args:
+Args:
     m_a: matrix a
     m_b: matrix b
 
