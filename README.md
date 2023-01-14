@@ -1,1 +1,1 @@
-The readme file for this directory
+0x0A. Python - Inheritance
