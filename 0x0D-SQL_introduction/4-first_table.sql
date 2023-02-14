@@ -1,5 +1,5 @@
--- create table first_table in MYSQL server
+-- create table first_table in current db
 -- passed as argument of mysql command
--- does not fail
-CREATE DATABASE first_table IF NOT EXISTS (id INT,
+-- does not fail if table exists
+CREATE DATABASE IF NOT EXISTS first_table (id INT,
 name VARCHAR(256))
